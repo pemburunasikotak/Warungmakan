@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.penjualanmakanan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PenjualanMakanan">
+        <activity android:name=".admin.HomeAdmin"/>
+        <activity android:name=".admin.LoginAdmin"/>
+        <activity android:name=".admin.MenuPesan"/>
+        <activity android:name=".admin.TambahMenu"/>
+        <activity android:name=".admin.LaporanAdmin"/>
+        <activity android:name=".kasir.HomeKasir"/>
+        <activity android:name=".kasir.PesanKasir"/>
+        <activity android:name=".kasir.LaporanKasir"/>
+        <activity android:name=".kasir.Penjualan"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

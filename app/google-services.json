@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29805391998",
+    "project_id": "penjualanmakanan-e435c",
+    "storage_bucket": "penjualanmakanan-e435c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29805391998:android:4bb634d82093538ba0a82f",
+        "android_client_info": {
+          "package_name": "com.example.penjualanmakanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29805391998-bdu0ui5hsd4pnvnv7udcf8gcnfg2qq3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAP2hqXF3_15GQLFx7diiSoY7shi_S01Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29805391998-bdu0ui5hsd4pnvnv7udcf8gcnfg2qq3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

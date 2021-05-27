@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/utama"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_pizza" />
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="Nama"
+                android:textColor="#000"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/idtambah"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/ic_bg_putih"
+                android:inputType="text" />
+            <EditText
+                android:id="@+id/et_namatambahmenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_bg_putih"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="@string/harga"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/et_hargatambahmenu"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_bg_putih"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:text="@string/modal"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/et_modaltambahmenu"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_bg_putih"
+                android:inputType="text" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_tambahmenu"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_radiushijau"
+            android:text="@string/tambah" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PenjualanMakanan</string>
+    <string name="harga">Harga</string>
+    <string name="value">10.000</string>
+    <string name="hapus">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="tambah">Tambah</string>
+    <string name="modal">Modal</string>
+    <string name="pesan">Pesan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="cek">Cek</string>
+    <string name="waktu">Waktu</string>
+    <string name="total">Total</string>
+</resources>

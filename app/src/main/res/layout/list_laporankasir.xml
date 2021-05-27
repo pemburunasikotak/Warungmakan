@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/utama"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_bg_putihradius"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="Nama"/>
+
+            <TextView
+                android:id="@+id/tvnamalaporankasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="........"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="@string/harga"/>
+
+            <TextView
+                android:id="@+id/tvhargalaporankasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="@string/value"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="@string/jumlah"/>
+
+            <TextView
+                android:id="@+id/tvjumlahlaporankasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="@string/value"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="@string/waktu"/>
+
+            <TextView
+                android:id="@+id/tvwaktulaporankasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="@string/value"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="@string/total"/>
+
+            <TextView
+                android:id="@+id/tvtotallaporankasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="@string/value"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/utama"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="226dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/ic_pizza"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="22dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="24sp"
+        android:text="Selamat Datang"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_bg_putihradius"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:text="DaftarPenjualan"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="10dp"/>
+            <Button
+                android:id="@+id/btn_daftarkasir"
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_tambahmenu"
+                android:layout_marginStart="12dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:text="Laporan penjualan "
+                android:textStyle="italic"
+                android:textSize="10dp"/>
+            <Button
+                android:id="@+id/btn_laporanKasir"
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/ic_laporan"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

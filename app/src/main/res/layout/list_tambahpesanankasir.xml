@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/utama"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_bg_putihradius"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="Nama"></TextView>
+
+            <TextView
+                android:id="@+id/tvidkasir"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="........"></TextView>
+
+            <TextView
+                android:id="@+id/tvnamekasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="........"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:text="@string/harga"></TextView>
+
+            <TextView
+                android:id="@+id/tvhargalistkasir"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:text="@string/value"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pesankasir"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/ic_radiushijau"
+                android:text="@string/pesan"
+                android:textAllCaps="false"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
